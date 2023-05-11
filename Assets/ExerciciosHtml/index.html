@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercicio Dio</title>
+  </head>
+  <body>
+    <h1 id="indice"> Como Funciona a Internet</h1>
+    <hr />
+    <h2>Indice</h2>
+    <ul>
+      <li><a href="#internet"> O que é internet?</a></li>
+      <li>
+        <a href="#distruida"
+          >O que é rede distribuída, e por que esse conceito <br />
+          é importante para a internet?</a
+        >
+      </li>
+      <li><a href="#funciona">Como a internet funciona?</a></li>
+      <li>
+        <a href="#infraestrutura"
+          >Qual é a infraestrutura física faz a Internet funcionar?</a
+        >
+      </li>
+      <li>
+        <a href="#conceitos"
+          >Qual a relação desses conceitos com os sites e aplicativos <br />
+          que os usuários acessam pela internet?</a
+        >
+      </li>
+      <li>
+        <a href="#significa"
+          >O que significa "ajudar a construir uma internet melhor"?</a
+        >
+      </li>
+    </ul>
+
+    <h3 id="internet"> O que é internet? </h3>
+    <a href="#indice"><small>voltar</small></a> 
+    <p>
+      Antes de abordar o que é a internet, devemos definir o que é uma "rede".
+      Uma rede é um grupo de computadores conectados que são capazes de enviar
+      dados uns aos outros. Uma rede de computadores é muito semelhante a um
+      círculo social, que é um grupo de pessoas em que todos se conhecem, trocam
+      informações regularmente e coordenam atividades em conjunto. A internet é
+      uma vasta e espalhada coleção de redes que se conectam umas às outras. De
+      fato, pode-se dizer que a palavra "internet" deriva desse conceito:
+      interconexão de redes (networks em inglês). Como os computadores se
+      conectam uns aos outros dentro de redes e todas essas redes também se
+      conectam entre si, um computador pode falar com outro computador em uma
+      rede distante, graças à internet. Isto possibilita a rápida troca de
+      informações entre computadores em todo o mundo. Os computadores se
+      conectam uns aos outros e à internet por meio de fios, cabos, ondas de
+      rádio e de outros tipos de infraestrutura de rede. Todos os dados enviados
+      pela internet são traduzidos em pulsos de luz ou eletricidade, também
+      chamados de "bits," e depois interpretados pelo computador receptor. Os
+      fios, cabos e ondas de rádio conduzem esses bits na velocidade da luz.
+      Quanto mais bits puderem passar por esses fios e cabos por vez, mais
+      rapidamente a internet funcionará.
+    </p>
+    <h3 id="distruida">
+      O que é rede distribuída, e por que esse conceito é importante para a
+      internet?
+    </h3>
+    <p>
+      Não existe um centro de controle para a internet. Em vez disso, trata-se
+      de um sistema de rede distribuído, o que significa que ele não depende de
+      nenhuma máquina individual. Qualquer computador ou hardware que possa
+      enviar e receber dados da forma correta (por exemplo, usando os protocolos
+      de rede corretos) pode fazer parte da internet. O caráter distribuído da
+      internet a torna resiliente. Computadores, servidores e outros hardwares
+      de rede conectam-se e desconectam-se da internet o tempo todo sem afetar
+      seu funcionamento, ao contrário de um computador, que pode não funcionar
+      se faltar um componente. Isto se aplica até mesmo em grande escala: se um
+      servidor, um data center inteiro ou uma região inteira de data centers
+      ficar inativo, o resto da internet ainda pode funcionar (mais lentamente).
+    </p>
+    <h3 id="funciona">Como a internet funciona?</h3>
+    <a href="#indice"><small>voltar</small></a> 
+    <h4>
+      Há dois conceitos principais que são fundamentais para o funcionamento da
+      internet: pacotes e protocolos.
+    </h4>
+    <h5><i>Pacotes</i></h5>
+    <p>
+      Na rede, um pacote é um pequeno segmento de uma mensagem maior. Cada
+      pacote contém tanto dados quanto informações sobre esses dados. As
+      informações sobre o conteúdo do pacote é conhecida como "cabeçalho" e vai
+      na frente do pacote para que a máquina receptora saiba o que fazer com o
+      pacote. Para entender a finalidade de um cabeçalho de pacote, pense nos
+      produtos de consumo que vêm com instruções de montagem. Quando os dados
+      são enviados pela internet, eles são primeiro divididos em pacotes
+      menores, que depois são traduzidos em bits. Os pacotes são encaminhados ao
+      seu destino por vários dispositivos de rede, tais como roteadores e
+      switches. Quando os pacotes chegam ao seu destino, o dispositivo receptor
+      monta novamente os pacotes na ordem correta e pode então usar ou exibir os
+      dados. Compare esse processo com a forma como foi construída a Estátua da
+      Liberdade dos Estados Unidos. A Estátua da Liberdade foi projetada e
+      construída primeiro na França. No entanto, ela era grande demais para
+      caber em um navio, então foi enviada aos Estados Unidos em partes,
+      juntamente com instruções sobre a que parte cada peça pertencia. Os
+      trabalhadores que receberam as peças as remontaram de maneira a formar a
+      estátua que hoje se encontra em Nova York. Embora esse processo tenha
+      feito com que a montagem da Estátua da Liberdade demorasse, o envio de
+      informações digitais pela internet em partes menores é extremamente
+      rápido. Por exemplo, uma foto da Estátua da Liberdade armazenada em um
+      servidor web pode viajar pelo mundo como um pacote de cada vez e ser
+      carregada no computador de alguém em milissegundos. Os pacotes são
+      enviados pela internet usando uma técnica chamada comutação de pacotes.
+      Roteadores e switches intermediários conseguem processar pacotes de forma
+      independente uns dos outros, sem levar em conta sua origem ou destino.
+      Isso foi concebido dessa forma para que nenhuma conexão única domine a
+      rede. Se os dados fossem enviados entre computadores de uma só vez sem
+      comutação de pacotes, uma conexão entre dois computadores poderia ocupar
+      vários cabos, roteadores e switches durante minutos por vez. Basicamente,
+      apenas duas pessoas conseguiriam usar a internet de cada vez, em vez de um
+      número quase ilimitado de pessoas, como é o caso na realidade.
+    </p>
+    <h5><i>Protocolos</i></h5>
+    <p>
+      Conectar dois computadores, com ambos podendo usar hardware e software
+      diferentes, é um dos principais desafios que os criadores da internet
+      tiveram que resolver. Isso requer o uso de técnicas de comunicação que
+      possam ser compreendidas por todos os computadores conectados, assim como
+      duas pessoas que cresceram em diferentes partes do mundo podem precisar
+      falar uma língua comum para se entenderem. Esse problema se resolve com
+      protocolos padronizados. Em rede, um protocolo é uma forma padronizada de
+      realizar determinadas ações e formatar dados para que dois ou mais
+      dispositivos sejam capazes de se comunicar entre si e de entender um ao
+      outro. Existem protocolos para envio de pacotes entre dispositivos na
+      mesma rede (Ethernet), para envio de pacotes de rede para rede (IP), para
+      garantir que esses pacotes cheguem com sucesso e em ordem (TCP) e para
+      formatação de dados para sites e aplicativos (HTTP). Além desses
+      protocolos fundamentais, existem também protocolos para roteamento, testes
+      e criptografia. E há alternativas aos protocolos listados acima para
+      diferentes tipos de conteúdo - por exemplo, o streaming de vídeo
+      frequentemente usa o protocolo UDP em vez do TCP. Como todos os
+      computadores conectados à internet e a outros dispositivos podem
+      interpretar e entender esses protocolos, a internet funciona
+      independentemente de quem ou o que se conecta a ela.
+    </p>
+    <h3 id="infraestrutura">
+      Qual é a infraestrutura física faz a Internet funcionar?
+    </h3>
+     <a href="#indice"><small>voltar</small></a> 
+    <h4>
+      Muitos tipos diferentes de hardware e infraestrutura fazem a internet
+      funcionar para todos. Alguns dos tipos mais importantes incluem os
+      elementos a seguir:
+    </h4>
+    <ul>
+      <li>Roteadores</li>
+      <p>
+        Encaminham pacotes para diferentes redes de computadores com base no seu
+        destino. Os roteadores são os policiais de tráfego da internet, que
+        garantem que o tráfego da internet vá para as redes corretas.
+      </p>
+      <li>Switches</li>
+      <p>
+        Conectam dispositivos que compartilham uma única rede. Eles usam
+        comutadores de pacotes para encaminhar os pacotes para os dispositivos
+        corretos. Eles também recebem pacotes que saem desses dispositivos e os
+        transmitem para o destino correto.
+      </p>
+      <li>Servidores Web</li>
+      <p>
+        Os servidores web são computadores especializados de alta capacidade que
+        armazenam e oferecem conteúdo (páginas web, imagens, vídeos) para os
+        usuários, além de hospedar aplicativos e bancos de dados. Os servidores
+        também respondem às consultas do DNS e realizam outras tarefas
+        importantes para manter a internet em funcionamento. A maioria dos
+        servidores é mantida em grandes data centers localizados em todo o
+        mundo.
+      </p>
+    </ul>
+    <h3 id="conceitos">
+      Qual a relação desses conceitos com os sites e aplicativos que os usuários
+      acessam pela internet?
+    </h3>
+    <a href="#indice"><small>voltar</small></a> 
+    <p>
+      Considere este artigo. Para que você possa vê-lo, ele foi enviado pela
+      internet parte por parte, na forma de milhares de pacotes de dados. Esses
+      pacotes foram transmitidos por cabos e ondas de rádio e através de
+      roteadores e switches do nosso servidor web para seu computador ou
+      dispositivo. Seu computador ou smartphone recebeu esses pacotes e os
+      passou para o navegador do seu dispositivo, que interpretou os dados
+      contidos nos pacotes a fim de exibir o texto que você está lendo agora.<br /><br /><br />
+      As etapas específicas envolvidas nesse processo são:
+    </p>
+    <ol>
+      <li><strong>Consulta DNS:</strong></li>
+      <p>
+        Quando seu navegador começou a carregar esta página web, provavelmente
+        fez uma consulta DNS para descobrir o endereço de IP do site da
+        Cloudflare.
+      </p>
+      <li><strong>Handshake TCP:</strong></li>
+      <p>Seu navegador iniciou uma conexão com esse endereço de IP.</p>
+      <li><strong>Solicitação HTTP:</strong></li>
+      <p>Seu navegador solicitou o conteúdo que aparece nesta página web.</p>
+      <li><strong>Resposta HTTP:</strong></li>
+      <p>
+        O servidor do Cloudflare transmitiu o conteúdo na forma de código HTML,
+        CSS e JavaScript, dividido em uma série de pacotes de dados. Depois que
+        seu dispositivo recebeu os pacotes e verificou que tinha recebido todos
+        eles, seu navegador interpretou os códigos HTML, CSS e JavaScript
+        contidos nos pacotes para renderizar este artigo sobre como a internet
+        funciona. Todo o processo demorou apenas um segundo ou dois.
+      </p>
+    </ol>
+    <br />
+    <h3 id="significa">
+      O que significa "ajudar a construir uma internet melhor"?
+    </h3>
+   <a href="#indice"><small>voltar</small></a> 
+    <p>
+      A criação da internet foi uma conquista incrível que envolveu os esforços
+      coletivos de milhares de indivíduos e organizações. O fato de a internet
+      funcione atualmente em uma escala muito maior do que seus fundadores
+      previram é uma prova do trabalho deles.<br /><br />
+      Entretanto, a internet nem sempre funciona tão bem quanto deveria.
+      Problemas de rede e atividades maliciosas podem deixar o acesso à internet
+      lento ou bloqueá-lo completamente. Terceiros podem espionar as atividades
+      dos usuários, levando a abusos e, em alguns casos, à repressão do governo.
+      Os protocolos e processos da internet não foram desenvolvidos tendo-se a
+      segurança e a privacidade como objetivos, já que as pessoas que primeiro
+      projetaram e construíram a internet estavam mais preocupadas em fazê-la
+      funcionar do que em torná-la perfeita.<br /><br /><br />
+      A missão da Cloudflare é ajudar a construir uma internet melhor. O
+      objetivo da Cloudflare é conseguir isso de várias maneiras, o que inclui:
+    </p>
+    <ul>
+      <li>
+        Contribuir para o desenvolvimento de protocolos mais novos, mais rápidos
+        e mais seguros para a internet
+      </li>
+      <br />
+      <li>
+        Colocar a privacidade em primeiro lugar, de modo a incorporá-la a todos
+        os produtos e oferecendo serviços gratuitos para aumentar a privacidade
+        dos usuários (como 1.1.1.1 e DNS sobre HTTPS)
+      </li>
+      <br />
+      <li>
+        Expandir os serviços da Cloudflare para um público global por meio de
+        uma rede de data centers internacional em constante expansão
+      </li>
+      <br />
+      <li>
+        Oferecer produtos que aumentem a segurança, o desempenho e a
+        confiabilidade das propriedades da web e da infraestrutura de rede
+        (muitos desses produtos são oferecidos gratuitamente a qualquer pessoa
+        com um site ou API)
+      </li>
+      <br />
+      <li>
+        Permitir aos desenvolvedores construir aplicativos sem servidor mais
+        rápidos e eficientes para atender melhor aos usuários
+      </li>
+      <br />
+      <li>
+        Educar os usuários sobre como funciona a tecnologia da internet por meio
+        do Learning Center e do Blog da Cloudflare
+      </li>
+      <br />
+    </ul>
+    <p>
+      Para saber mais sobre os esforços contínuos da Cloudflare para contribuir
+      para uma Internet melhor, visite nossa página inicial ou siga nosso blog.
+    </p>
+    <hr />
+   <h4> <blockquote> <i>"A internet de todas as coisas poderá em breve criar um fluxo de dados tão
+    imenso e tão rápido que mesmo algoritmos humanos aprimorados não darão
+    conta dele."
+   <p>Yuval Noah Harari</p> </i></blockquote></h4> 
+  </body>
+</html>
